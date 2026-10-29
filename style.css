@@ -5,7 +5,8 @@
 }
 
 body { 
-    font-family: 'Quicksand','Archive Black';
+    background-color: black;
+    font-family: 'Quicksand','Archivo Black';
     display: flex;
     text-align: center;
 }
@@ -20,7 +21,11 @@ body {
 }
 
 .frase-hero {
-    font-family: 'Archive Black';
+    font-family: 'Archivo Black';
+    color: white;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;    
 }
 
 
