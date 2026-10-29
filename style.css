@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+body { 
+    font-family: 'Quicksand','Archive Black';
+    display: flex;
+    text-align: center;
+}
+
+.versao-atual {
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 0.65rem;
+    color: green;
+    font-weight: bold;    
+}
+
+.frase-hero {
+    font-family: 'Archive Black';
+}
+
+
+
+
+
+
