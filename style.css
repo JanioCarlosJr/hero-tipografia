@@ -4,32 +4,74 @@
     box-sizing: border-box;
 }
 
-body { 
+body {
     background-color: black;
-    font-family: 'Quicksand','Archivo Black';
-    display: flex;
-    text-align: center;
+    font-family: 'Quicksand', 'Archivo Black';
+    text-align: center;    
+    
 }
 
-.versao-atual {
+.versao-atual { 
+    display: inline-block;   
     background-color: lightgreen;
-    padding: 5px;
+    padding: 4px;
     border-radius: 15px;
     font-size: 0.65rem;
     color: green;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 .frase-hero {
     font-family: 'Archivo Black';
     color: white;
     font-size: 3rem;
-    line-height: 3rem;
-    text-align: center;    
+    line-height: 1.6; 
+    padding: 15px;   
 }
 
+P {
+    font-family: 'Quicksand';
+    color: white;
+    padding: 15px;
+    
+}
 
+.nome-heroi {
+    color: purple;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
+.botoes-acao {
+    text-align: center;  
+          
+}
 
+.jogar-agora { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;      
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
 
+.patch-notes {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: blueviolet;
+    font-family: 'Quicksand';
+    font-weight: bold;    
+}
 
+.imagem-hero {
+    width: 1000px;
+
+}
