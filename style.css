@@ -7,12 +7,12 @@
 body {
     background-color: black;
     font-family: 'Quicksand', 'Archivo Black';
-    text-align: center;    
-    
+    text-align: center;
+
 }
 
-.versao-atual { 
-    display: inline-block;   
+.versao-atual {
+    display: inline-block;
     background-color: lightgreen;
     padding: 4px;
     border-radius: 15px;
@@ -25,37 +25,37 @@ body {
     font-family: 'Archivo Black';
     color: white;
     font-size: 3rem;
-    line-height: 1.6; 
-    padding: 15px;   
+    line-height: 1;
+    padding: 15px;
 }
 
 P {
     font-family: 'Quicksand';
     color: white;
     padding: 15px;
-    
+
 }
 
 .nome-heroi {
-    color: purple;
+    color: red;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .botoes-acao {
-    text-align: center;  
-          
+    text-align: center;
+
 }
 
-.jogar-agora { 
+.jogar-agora {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;      
+    margin-bottom: 20px;
     font-size: 20px;
     padding: 18px;
     border-radius: 40px;
-    background-color: blueviolet;
+    background-color: rgb(153, 2, 2);
     color: white;
     font-family: 'Quicksand';
     font-weight: bold;
@@ -66,12 +66,21 @@ P {
     padding: 10px;
     border-radius: 20px;
     background-color: white;
-    color: blueviolet;
+    color: rgb(153, 2, 2);
     font-family: 'Quicksand';
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 .imagem-hero {
-    width: 1000px;
+    width: 100%;
+    height: auto;
+}
 
+.show-patch-notes {
+    display: none;
+    text-align: right;
+    background-color: gray;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Quicksand';        
 }
